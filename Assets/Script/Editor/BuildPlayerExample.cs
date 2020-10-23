@@ -10,7 +10,7 @@ public class BuildPlayerExample : MonoBehaviour
     public static void MyBuild()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
-        buildPlayerOptions.scenes = new[] { "Assets/Scenes/Login.unity", "Assets/Scenes/Game.unity" };
+        buildPlayerOptions.scenes = new[] { "Assets/Scenes/SampleScene.unity" };
         
         buildPlayerOptions.locationPathName = "AndroidExportBuild";
         buildPlayerOptions.target = BuildTarget.Android;

@@ -2,9 +2,6 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Echo
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -28,7 +25,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 10668}
+      Script: {instanceID: 10672}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -302,7 +299,7 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 35a9693c388776aaf487636491a20f11
+      Hash: 30253c358d6d78af18720d4968fb2bc1
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
@@ -459,4 +456,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Downloads/QQ/test
+  playerPath: D:/MYProject/SCGame/TestBuild/AndroidExportBuild
